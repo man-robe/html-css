@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+           background-color: hsla(191, 22%, 20%, 0.848);
+            margin: 0px;
+        }
+        header {
+            box-shadow: 2px 1px 14px 4px rgba(0, 0, 0, 0.4);
+            background-color: hsl(0, 6%, 90%);
+            padding: 10px;
+            margin: 10px;
+            font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+            
+        }
+        h1 {
+            box-shadow: 2px 1px 14px 4px rgba(0, 0, 0, 0.4);
+            color: #F39209;
+            text-align: center;
+            text-shadow: 1px 1px 2px rgba(129, 77, 5, 0.726);
+        }
+            
+
+        
+    
+        nav#links{
+            background-color: rgb(8, 82, 96);
+            padding: 3px;
+            margin: 3px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.315);
+            text-align: right;
+            font-family: Arial, Helvetica, sans-serif
+            
+        }
+        nav#links > a {
+            text-decoration: none;
+            color: rgb(150, 135, 135);
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav#links > a:hover {
+            text-decoration: underline;
+        }
+        main {
+            background-color: rgb(55, 190, 231);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.384);
+        }
+
+        section#assuntos{
+            text-decoration: none;
+            font-family: Verdana, Tahoma, sans-serif;
+            color: rgba(44, 110, 143, 0);
+        }
+
+        section#assuntos > p > a{
+            text-decoration: none;
+            font-style: normal;
+            color: rgb(3, 36, 48);
+            
+
+        }
+
+        section#assuntos > p > a:hover {
+            color: rgb(183, 174, 162);
+            font-weight:bold;
+            text-transform: uppercase;
+            
+    
+        }
+    
+           
+            
+       
+       
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0;
+        }
+        footer > p {
+           
+            margin: 0px;
+        }
+
+
+
+        div > p{
+            display: none;
+            font-family:system-ui, 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif
+        }
+         div:hover > p{
+                display: block;
+                background-color: rgb(15, 1, 1);
+                color: rgb(239, 220, 17);
+                width: 300px;
+                font-weight: bold;
+                font-style: italic;
+        }
+        div:hover{
+            color: rgb(249, 17, 9);
+        }
+
+        div{
+            font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+            font-style: italic
+            
+        }
+
+
+       
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav id="links">
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+       
+    </header>
+    <main>
+        <section id="assuntos">
+            <p><a href="#">Esportes</a> |<a href="#"> Política</a> | <a href="#">Tecnologia</a>|</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre os Estados Unidos</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, in? Vero autem, quis veniam incidunt commodi modi dolor consequuntur doloribus architecto. Ducimus dignissimos dolorem, maiores maxime ipsum est ab corporis!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus nihil praesentium debitis rerum ab delectus culpa aliquid velit. Odit obcaecati cumque esse accusamus a nostrum dicta ipsa cum, officia distinctio.
+                </p>
+                <h2>Notícias de última hora</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat voluptas doloribus placeat facere amet quaerat non, suscipit laborum veniam ut tempore. Recusandae placeat nulla culpa adipisci distinctio, ipsam exercitationem minima.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio natus optio veritatis illum. Officiis modi, ut tempora odit eaque vero repellat deserunt beatae expedita officia sunt quas vel totam enim!</p>
+                <aside>
+                    <div>
+                        passe o mouse aqui!
+
+                        <p>Olá! artigo escrito por Alberto Mbundi</p>
+                    </div>
+                </aside>
+            </article>
+             
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo Man Robé</p>
+    </footer>
+    <div id="bola"> </div>
+</body>
+</html>

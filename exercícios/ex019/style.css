@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+/*
+    em HTML é id =  em CSS é # <-(só pode entrar um elemento)
+    em HTML é class = em CSS é. <-(pode entar vários elemetos)
+    Tudo que em html é id, em css vira # hashtag ou cerquilha
+    Tudo que em htm é class, em css vira .(ponto)
+*/
+
+
+
+body {
+    background-color: #d6fde9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color:#1e402f;
+
+    }
+
+h1#principal {   /* Selector personalizado ou seja, configuração personalizada */
+    text-align: center;
+    background-color: #3c805e; 
+    color: white;
+}
+
+    
+h2 {
+    color: #3c805e;
+
+    }
+.basico {
+    color:#3c805e;
+}
+
+.intermediario {
+    color: #80793c;
+}
+
+.avançado {
+    color: #803c3c;
+}
+
+.destaque {
+    background-color: #c5c56070;
+}
