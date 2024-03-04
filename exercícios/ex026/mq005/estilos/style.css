@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* CSS para mobile first */
 
-*{
+* {
     font-family: Arial, Helvetica, sans-serif;
 
     margin: 0px;
@@ -12,11 +12,11 @@ body, html {
     background-color: lightgrey;
 }
 
-header{
+header {
     background-color: rgb(148, 148, 148);
 }
 
-header h1{ 
+header h1 { 
     padding: 10px;
     text-align: center;
 }
@@ -36,6 +36,7 @@ i#burger:hover {
 }
 
 menu {
+
     display: none;
 }
 
