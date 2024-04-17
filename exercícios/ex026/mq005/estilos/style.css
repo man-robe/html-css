@@ -31,8 +31,10 @@ i#burger {
 }
 
 i#burger:hover {
+
     background-color: white;
     color: black;
+    
 }
 
 menu {
@@ -52,12 +54,14 @@ menu > ul > li > a {
     background-color: rgb(87, 87, 87);
     color: white;
 
-    border-top: 2px solid grey ;
+    border-top: 2px solid grey;
 }
+
 
 menu > ul > li > a:hover {
     background-color: grey;
 }
+
 
 main { 
     width: 90vw;
